@@ -23,7 +23,7 @@ pipeline{
                 sh "mvn clean package"
             }
         }
-        
+        /*
         stage('3CodeQuality'){
             steps{
                 sh "echo 'performing CodeQualityAnalysis' "
@@ -75,5 +75,5 @@ Elsampee
 +1 437 215 2483''', recipientProviders: [buildUser(), developers()], subject: 'success', to: 'paypal-team@gmail.com'
         }
     }
-    
+   */ 
 }
